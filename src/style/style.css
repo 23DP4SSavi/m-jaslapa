@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+}
+
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    text-align: center; 
+    background-color: antiquewhite;
+}
+
+header { 
+    background: #552f2f; 
+    color: white; 
+    padding: 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+nav a { 
+    color: white; 
+    text-decoration: none; 
+    margin: 0 15px; 
+}
+
+.hero { 
+    padding: 50px; 
+    background: #552f2f; 
+    color: white;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.poetry-section { 
+    background-color: rgb(253, 247, 240); 
+    padding: 20px; 
+}
+
+.cat-fact { 
+    margin-top: 20px; 
+    font-weight: bold; 
+}
+
+footer {
+    background: #552f2f;
+    color: white;
+    padding: 10px;
+    margin-top: auto;
+    text-align: center;
+}
