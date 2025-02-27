@@ -3,30 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lasīt - Dzejoļu Kopiena</title>
-    <link rel="stylesheet" href="src/style/style.css">
-    <script src="script.js" defer></script>
+    <title>Publicēt - Dzejoļu Kopiena</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="../../script.js" defer></script>
 </head>
 <body>
     <div class="page-container">
+
         <header>
             <h1>Neizteiktie vārdi</h1>
             <nav>
-                <a href="index.html">Sākums</a>
+                <a href="../../index.html">Sākums</a>
                 <a href="lasit.html">Lasīt</a>
                 <a href="publicet.html">Publicēt</a>
                 <a href="parMums.html">Par Mums</a>
-            </nav>
+            </nav>   
         </header>
         
         <main class="content">
-            <h2>Lasīt dzejoļus</h2>
-            <div id="poetry-list"></div>
+            <h2>Publicēt dzejoli</h2>
+            <form id="poem-form">
+                <textarea id="poem-text" placeholder="Ievadiet savu dzejoli..." rows="5"></textarea><br>
+                <button type="submit">Publicēt</button>
+            </form>
         </main>
 
         <footer>
             <p>&copy; 2025 Neizteiktie vārdi</p>
         </footer>
+
     </div>
 </body>
 </html>
